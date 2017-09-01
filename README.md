@@ -52,7 +52,7 @@ We have executed SWIFOLD in different FPGA-based platforms. Some of the performa
         --usage Give a short usage message
 ```
 
-## Reference
+## References
 
 Rucci E., Garcia C., Botella G., De Giusti A., Naiouf M., Prieto-Matias M. (2017) SWIFOLD: Smith-Waterman Acceleration on Intel’s FPGA with OpenCL for Long DNA Sequences. *Under evaluation*
 
