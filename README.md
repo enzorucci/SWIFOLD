@@ -10,27 +10,25 @@ We have executed SWIFOLD in different FPGA-based platforms. Some of the performa
 
 **Experimental platform**: A server with two Intel Xeon CPU E5-2670 8-core 2.60GHz, 48 GB main memory and an Intel Arria 10 GX with 2 GByte DDR3. Intel’s ICC compiler (version 17.0.1.132). Intel FPGA OpenCL SDK 16.0
 
-Sequence 1 | | Sequence 2 | | Matrix size | Time | GCUPS
-Acession | Size | Acession | Size | cells | |
---- | --- | --- | --- | --- | --- | --- |
-AF133821.1 | 10K | AY352275.1 | 10K | 100K | 0.002s | 49.81
-NC_000898 | 162K | NC 007605 | 172K | 28M | 0.83s | 122.94
-BA000035.2  | 3M | BX927147.1 | 3M | 9G | 2m11.4s | 131.45
-NC 005027.1 | 7M | NC 003997.3 | 5M | 35G | 3m27.2s | 131.98
-NT 033779.4 | 23M | NT 037436.3 | 25M | 575G | 1h11m7.8s | 132.33
-NC 000020.11 | 65M | NC 006487.4 | 67M | 4.4T | 8h59m37.6s | 132.43
+| Input sequence| Size | Target sequence  | Size | Matrix cells   | Time     | GCUPS  |
+| ------------  | ---- | -----------      | ---- | ------         | -------- | ------ |
+| AF133821.1    | 10K  | AY352275.1       | 10K  | 100K           | 0.002s   | 49.81  |
+| NC_000898     | 162K | NC 007605        | 172K | 28M            | 0.83s    | 122.94 |
+| BA000035.2    | 3M   | BX927147.1       | 3M   | 9G             | 2m11.4s  | 131.45 |
+| NC 005027.1   | 7M   | NC 003997.3      | 5M   | 35G            | 3m27.2s  | 131.98 |
+| NC 000020.11  | 65M  | NC 006487.4      | 67M  | 4.4T           | 8h59m37s | 132.43 |
 
 
 **Experimental platform**: A server with two Intel Xeon CPU E5-2670 8-core 2.60GHz, 32 GB main memory and an Altera Stratix V GSD5 Half-Length PCIe Board with Dual DDR3 (two banks of 4 GByte DDR3). Intel’s ICC compiler (version 16.0.3). Quartus II DKE V12.0 2 with OpenCL SDK v14.0.
 
-Sequence 1 | | Sequence 2 | | Matrix size | Time | GCUPS
-Acession | Size | Acession | Size | cells | |
---- | --- | --- | --- | --- | --- | --- |
-AF133821.1 | 10K | AY352275.1 | 10K | 100K | 0.007s | 14.47
-NC_000898 | 162K | NC 007605 | 172K | 28M | 0.83s | 33.45
-BA000035.2  | 3M | BX927147.1 | 3M | 9G | 4m36.8s | 37.32
-NC 005027.1 | 7M | NC 003997.3 | 5M | 35G | 16m34.5s | 37.56
-NT 033779.4 | 23M | NT 037436.3 | 25M | 575G | 4h9m48.5s  | 37.68
+
+| Input sequence| Size | Target sequence  | Size | Matrix cells   | Time     | GCUPS  |
+| ------------  | ---- | -----------      | ---- | ------         | -------- | ------ |
+| AF133821.1    | 10K  | AY352275.1       | 10K | 100K            | 0.007s | 14.47  |
+| NC_000898     | 162K | NC 007605        | 172K | 28M            | 0.83s | 33.45 |
+| BA000035.2    | 3M   | BX927147.1       | 3M | 9G               | 4m36.8s | 37.32 |
+| NC 005027.1   | 7M   | NC 003997.3      | 5M | 35G              | 16m34.5s | 37.56 |
+| NT 033779.4   | 23M  | NT 037436.3      | 25M | 575G            | 4h9m48.5s  | 37.68 |
 
 ## Usage
 
