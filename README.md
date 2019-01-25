@@ -1,8 +1,8 @@
 # SWIFOLD
-Smith-Waterman Acceleration on Intel’s FPGA with OpenCL for Long DNA Sequences
+Smith-Waterman Acceleration on Intel's FPGA with OpenCL for Long DNA Sequences
 
 ## Description
-SWIFOLD is a software to accelerate Smith-Waterman alignment of long DNA sequences. 
+SWIFOLD is a software to accelerate Smith-Waterman alignment of long DNA sequences on Intel's FPGAs. 
 
 ## Performance
 
