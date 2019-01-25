@@ -52,13 +52,19 @@ We have executed SWIFOLD in different FPGA-based platforms. Some of the performa
         --usage Give a short usage message
 ```
 
+## Build
+
+Remember that both performance and resource usage depend on the BLOCK_WIDTH constant. Tune BLOCK_WIDTH according to your needs (see swifold/device/sw.cl).
+
 ## References
 
-Rucci E., Garcia C., Botella G., De Giusti A., Naiouf M., Prieto-Matias M. (2017) SWIFOLD: Smith-Waterman Acceleration on Intel’s FPGA with OpenCL for Long DNA Sequences. *Under evaluation*
+Rucci E., Garcia C., Botella G., De Giusti A., Naiouf M., Prieto-Matias M. (2018) SWIFOLD: Smith-Waterman Acceleration on Intel’s FPGA with OpenCL for Long DNA Sequences. BMC Systems Biology2018 12(Suppl 5):96. DOI https://doi.org/10.1186/s12918-018-0614-6
 
 Rucci E., Garcia C., Botella G., De Giusti A., Naiouf M., Prieto-Matias M. (2017) Accelerating Smith-Waterman Alignment of Long DNA Sequences with OpenCL on FPGA. In: Rojas I., Ortuño F. (eds) Bioinformatics and Biomedical Engineering. IWBBIO 2017. Lecture Notes in Computer Science, vol 10209. Springer, Cham. DOI https://doi.org/10.1007/978-3-319-56154-7_45
 
 ## Changelog
+* January 25, 2019
+[v1.0] Source code released
 * September 01, 2017
 Binary code released
 
